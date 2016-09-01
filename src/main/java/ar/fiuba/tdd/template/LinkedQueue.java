@@ -1,10 +1,10 @@
 package ar.fiuba.tdd.template;
 
-public class LinkedList<T> implements Queue<T> {
+public class LinkedQueue<T> implements Queue<T> {
 
     private Item<T> head;
 
-    public LinkedList() {
+    public LinkedQueue() {
         this.head = new Head<T>();
     }
 

@@ -4,7 +4,7 @@ public class Node<T> implements Item<T> {
 
     private T data;
     private int weight = 1;
-    private Item<T> next = new LastNode<T>();
+    private Item<T> next = new Tail<T>();
 
     public Node(T data) {
         this.data = data;

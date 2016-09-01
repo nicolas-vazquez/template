@@ -5,7 +5,7 @@ public class Head<T> implements Item<T> {
     private Item<T> next;
 
     public Head() {
-        this.next = new LastNode<T>();
+        this.next = new Tail<T>();
     }
 
     public void insertNext(Item<T> previous, T data) {

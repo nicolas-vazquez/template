@@ -1,10 +1,10 @@
 package ar.fiuba.tdd.template;
 
-public class LastNode<T> implements Item<T> {
+public class Tail<T> implements Item<T> {
 
     private int weight;
 
-    public LastNode() {
+    public Tail() {
         this.weight = 0;
     }
 
